@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Matic Kobale">
+  <meta name="keywords" content="spletišče, website, kreiranje spletišča, spletno mesto, lastno spletišče">
+  <title>PCM | Kompletno merjenje</title>
+  <link rel="icon" href="kolo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="slog.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header style="z-index: 99999;">
+      <table class="center">
+        <tr>
+          <td><img class="kolo" src="kolo.svg" alt="logo"/></td>
+          <td><a href="index.html" style="text-decoration: none;color: black;"><h2 class="ime_strani">PCM Experts</h2></a></td>
+        </tr>
+      </table>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Domov</a></li>
+          <li class="dropdown">
+            <a href="opis_podjetja.html" class="dropbtn">O nas</a>
+            <div class="dropdown-content">
+              <a href="opis_podjetja.html">Opis podjetja</a>
+              <a href="kontakt.html">Obrazec za kontaktiranje</a>
+              <a href="pravila_podatki.html">Pravila o podatkih</a>
+              <a href="zemljevid.html">Kje se nahajamo</a>
+              <a href="galerija_slik.html">Galerija slik</a>
+              <a href="zaposleni.html">Zaposleni</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="kompletno_merjenje.html" class="dropbtn">Ponudba</a>
+            <div class="dropdown-content">
+              <a href="kariera.html"> KARIRERA </a>
+              <a href="kompletno_merjenje.html">Kompletno merjenje</a>
+              <a href="vetrovnik.html">Merjenje pozicije</a>
+              <a href="analiza_pedaliranja.html">Analiza pedaliranja</a>
+              <a href="prilagajanje_sedeza.html">Prilagajanje sedeža</a>
+              <a href="aerodinamicna_analiza.html">Aerodinamična analiza</a>
+            </div>
+          </li>
+          <li><a href="kontakt.html">Kontaktirajte nas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container mt-5">
+        <h1 class="mb-4 main-content" style="border-radius: 30px;text-align: center;">Naše Storitve <br><span style="font-size: 50%;font-weight: lighter;">*Cene so variabilne</span></h1>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover" style="background-color: rgb(238, 243, 247);">
+                <colgroup>
+                    <col style="width: 20%;">
+                    <col style="width: 30%;">
+                    <col style="width: 10%;">
+                    <col style="width: 15%;">
+                    <col style="width: 25%;">
+                </colgroup>
+                <thead class="thead-dark">
+                    <tr>
+                        <th rowspan="2">Storitev</th>
+                        <th rowspan="2">Opis</th>
+                        <th rowspan="2">Trajanje</th>
+                        <th colspan="2" class="text-center">Cena</th>
+                    </tr>
+                    <tr>
+                        <th>EUR</th>
+                        <th>Opombe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Merjenje pozicije</td>
+                        <td>Natančna nastavitev kolesa glede na vaše telesne mere za optimalno udobje in zmogljivost.</td>
+                        <td>1 ura</td>
+                        <td style="text-align:center; vertical-align: middle;">50</td>
+                        <td rowspan="2" style="vertical-align:middle">Vključuje prilagoditev višine sedeža, naklona krmila in dolžine krmilnega stebla.</td>
+                    </tr>
+                    <tr>
+                        <td>Analiza pedaliranja</td>
+                        <td>Pregled vašega pedaliranja za izboljšanje učinkovitosti in moči.</td>
+                        <td>1,5 ure</td>
+                        <td style="text-align:center; vertical-align: middle;">75</td>
+                    </tr>
+                    <tr>
+                        <td>Prilagajanje sedeža</td>
+                        <td>Optimizacija višine, naklona in pozicije sedeža za največje udobje med vožnjo.</td>
+                        <td>45 minut</td>
+                        <td style="text-align:center; vertical-align: middle;">40</td>
+                        <td>Priporočljivo za vse vrste kolesarjev, zlasti za dolge vožnje.</td>
+                    </tr>
+                    <tr>
+                        <td>Aerodinamična analiza</td>
+                        <td>Izboljšanje vaše aerodinamike za hitrejšo vožnjo z manj napora.</td>
+                        <td>2 uri</td>
+                        <td style="text-align:center; vertical-align: middle;">100</td>
+                        <td>Vključuje analizo pozicije in optimizacijo opreme za zmanjšanje zračnega upora.</td>
+                    </tr>
+                    <tr>
+                        <td>Kompletno merjenje</td>
+                        <td colspan="2">Celovit pregled in prilagoditev vseh vidikov kolesarske pozicije in tehnike.</td>
+                        <td style="text-align:center; vertical-align: middle;">200</td>
+                        <td>Vključuje vse zgoraj naštete storitve in prilagojene nasvete za izboljšanje zmogljivosti.</td>
+                    </tr>
+                </tbody>
+                <caption style="font-weight: bold;color: blue;">*Podatki se lahko spreminjajo</caption>
+            </table>
+        </div>
+    </div>
+    
+    <footer class="container-fluid text-center">
+      <div class="row">
+        <!-- Socialne ikone -->
+        <div class="col-sm-6">
+          <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="top" title="Snapchat"><i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+          <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <p>Created by Matic Kobale</p>&nbsp;&nbsp;
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

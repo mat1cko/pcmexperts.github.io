@@ -1,0 +1,387 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url('slike/ozadje1.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: #000;
+    }
+
+    header {
+      background-color: #ebc764;
+      color: #000;
+      padding: 10px 0;
+      padding-top: 0px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; /* Raztegni glavo čez celotno širino strani */
+    }
+
+    .ime_strani {
+      background-color: transparent;
+      border: none; /* Odstrani obrobo naslova */
+      padding: 5px;
+      text-align: left;
+      margin-left: 20px;
+      
+    }
+	
+    nav {
+      width: 100%; /* Raztegni meni čez celotno širino */
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+      position: relative;
+    }
+
+    nav ul li a {
+      color: #000; /* Črna barva pisave */
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      text-decoration: none;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 0;
+      margin: 0;
+      left: 0;
+      top: 100%;
+      margin-top: 10px;
+    }
+
+    nav ul li:hover .submenu {
+      display: block;
+    }
+
+    .submenu li {
+      display: block;
+    }
+
+    .content {
+	  padding: 20px;
+	  margin-top: 10%; /* Dodaj odmik za glavo spletne strani */
+	}
+
+    .subpages {
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: rgba(51, 51, 51, 0.8);
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+    }
+
+    .container {
+      margin: 0 10%;
+    }
+
+	.dropbtn {
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      z-index: 6;
+    }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	top:140%;
+}	
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #dfb648;}
+	
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cls-1 {
+  fill: #f1637c;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36 {
+  stroke-width: 0px;
+}
+
+.cls-2 {
+  fill: #ef4763;
+}
+
+.cls-3 {
+  fill: #f0526e;
+}
+
+.cls-4 {
+  fill: #f2728a;
+}
+
+.cls-5 {
+  fill: #f1647c;
+}
+
+.cls-6 {
+  fill: #434445;
+}
+
+.cls-7 {
+  fill: #f0536f;
+}
+
+.cls-8 {
+  fill: #f05470;
+}
+
+.cls-9 {
+  fill: #f05c76;
+}
+
+.cls-10 {
+  fill: #f1617b;
+}
+
+.cls-11 {
+  fill: #f1627c;
+}
+
+.cls-12 {
+  fill: #f04c69;
+}
+
+.cls-13 {
+  fill: #ed1c24;
+}
+
+.cls-14 {
+  fill: #4499d4;
+}
+
+.cls-15 {
+  fill: #f0526d;
+}
+
+.cls-16 {
+  fill: #f1667e;
+}
+
+.cls-17 {
+  fill: #060606;
+}
+
+.cls-18 {
+  fill: #f6f3f4;
+}
+
+.cls-19 {
+  fill: #fbd8df;
+}
+
+.cls-20 {
+  fill: #ef4444;
+}
+
+.cls-21 {
+  fill: #f1647d;
+}
+
+.cls-22 {
+  fill: #080808;
+}
+
+.cls-23 {
+  fill: #ef4460;
+}
+
+.cls-24 {
+  fill: #ef4a68;
+}
+
+.cls-25 {
+  fill: #040404;
+}
+
+.cls-26 {
+  fill: #ef3f5d;
+}
+
+.cls-27 {
+  fill: #f1687f;
+}
+
+.cls-28 {
+  fill: #ef4b69;
+}
+
+.cls-29 {
+  fill: #f27085;
+}
+
+.cls-30 {
+  fill: #fff;
+}
+
+.cls-31 {
+  fill: #030303;
+}
+
+.cls-32 {
+  fill: #f05671;
+}
+
+.cls-33 {
+  fill: #070707;
+}
+
+.cls-34 {
+  fill: #f1607b;
+}
+
+.cls-35 {
+  fill: #f15f7a;
+}
+
+.cls-36 {
+  fill: #fac6d0;
+}
+
+.kolo {
+  height: 100px;
+  width: 100px;
+}
+
+.container { margin: 136px auto; }
+
+.ikona { max-width: 180px; }
+
+.container h1 {
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.container h3 {	font-size: 1.5em; }
+
+/* Kontakt - Zemljevid */
+#zemljevid .container-fluid {
+  background-color: #efefef;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+#zemljevid #map {
+  width: 100%;
+  height: 500px;	
+}
+
+/* Kontakt - Podnaslov in besedilo */
+#kontakt { background-color: #efefef }
+#kontakt .container { margin: 0 auto }
+#kontakt .container { padding-top: 0; }
+#kontakt .col-sm-12 { margin-bottom: 30px }
+#kontakt .row {	margin-top: 30px }
+#kontakt .btn { padding: 7px 50px }
+#kontakt .zvezdica { color: red }
+
+.glava {z-index: 99999;}
+.vsebina { margin-top: 5%; padding-right: px;}
+@media (min-width: 1200px) {
+  .container_podatki{
+    max-width: 1789px;
+  }
+}
+
+#counter { counter-reset: section }
+#counter h2 { 
+    counter-increment: section; 
+    counter-reset: sub-section;
+}
+#counter h2:before, #counter h2:before { 
+  content: counter(section) "." 
+  counter(sub-section) " "; 
+}
+#counter h3:before { counter-increment: sub-section }
+#counter h3 {font-size: 16px;}
+#counter h2 {margin-top: 20px;}
+
+#counter2 { counter-reset: section }
+#counter2 h2 { 
+    counter-increment: section; 
+    counter-reset: sub-section;
+}
+#counter2 h2:before, #counter2 h3:before { 
+  content: counter(section) "." 
+  counter(sub-section) " "; 
+}
+#counter2 h3:before { counter-increment: sub-section }
+#counter2 h3 {font-size: 16px;}
+#counter2 h2 {margin-top: 20px;}
+.main-content {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+.povezava_podatki {
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s;
+}
+.povezava_podatki:hover {
+  text-decoration: none;
+  font-size: 150%;
+  text-shadow: 2px 2px 5px grey;
+}
+.galerija_slike div.thumbnail img{
+  transition: all 1s;
+}
+.galerija_slike div.thumbnail img:hover{
+  transform: scale(1.25) rotate(360deg);
+  z-index: 999999999;
+}
